@@ -9,3 +9,26 @@
     height: 50px;
     text-align: center;
 }
+
+.cards {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 400px;
+    width:300px ;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  body{
+      text-align: center;
+  }

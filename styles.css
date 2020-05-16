@@ -1,4 +1,11 @@
 .jumbotron{
-    background-color: orange;
     color: red;
+    background-color: orange;
+}
+#jumbotron1{
+    height: 100px;
+}
+#jumbotron2{
+    height: 50px;
+    text-align: center;
 }

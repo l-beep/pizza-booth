@@ -3,7 +3,7 @@
     background-color: orange;
 }
 #jumbotron1{
-    height: 100px;
+    height: 150px;
 }
 #jumbotron2{
     height: 50px;
@@ -47,5 +47,8 @@
     color: red;
   }
   .favourites{
+      color: red;
+  }
+  .social_icons{
       color: red;
   }

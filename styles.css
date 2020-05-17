@@ -26,6 +26,9 @@
     background-color: white;
     color: red;
   }
+  .button{
+      text-align: center;
+  }
   
  .comment{
      color: red;
@@ -56,11 +59,12 @@
   }
   .box-sizing {
     width: 1100px;
-    height: 600px;
+    height: 400px;
     padding: 50px;
+    background-color: orange;
     border: 1px solid red;
   }
-  input[type=text], select, textarea{
+  input[type=text], select,textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -121,3 +125,4 @@
       margin-top: 0;
     }
   }
+ 

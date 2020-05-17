@@ -73,10 +73,70 @@
         </div>
       </div>
 </div>
-<div class="order">
-<h1>Hey,Pizzamate Let Me Help You Order.</h1>
-<textarea name="" id="message" cols="100" rows="10"
-                placeholder="Your message here..."></textarea>
+<div class="comment">
+  <h1>Hey,Pizzamate Let Me Help You Order.</h1>
+  </div>
+<div class="box-sizing">
+  <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="pizzasize">Pizza Size</label>
+        </div>
+        <div class="col-75">
+          <select id="pizza size" name="Pizza Size">
+            <option value="Small Size">Small Size</option>
+            <option value="middle size">Middle Size</option>
+            <option value="large size">Large Size</option>
+            <option value="extra large size">Extra Large Size</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="ptoppings">Pizza Toppings</label>
+        </div>
+        <div class="col-75">
+          <select id="pizzatoppings" name="Pizza Toppings">
+            <option value="pepperoni">pepperoni</option>
+            <option value="mushroom">mushroom</option>
+            <option value="onions">onions</option>
+            <option value="sausage">sausage</option>
+            <option value="bacon">bacon</option>
+            <option value="black olives">black olives</option>
+            <option value="black olives">black olives</option>
+
+            
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="order" value="ORDER">
+      </div>
+    </form>
+  </div>
+  
+  
 </div>
   
 </body>

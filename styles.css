@@ -12,6 +12,7 @@
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card, .size {
@@ -179,6 +180,7 @@
     background-color: orange;
     height: 200px;
     padding-top: 50px;
+    width: 1300px;
   }
   .button{
     padding-right: 100px;

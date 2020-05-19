@@ -61,7 +61,7 @@ function size(){
   }
   function calculate() {
     var calculate = (size() + crust() + getPepperoni() + getMushrooms() + getOnions() + getSausage() + getBacon()) * getNumber();
-    document.getElementById("show").innerHTML = "Hello ,your order is " + ' ' + '' + getNumber() + '' + '' + '' + " pizza" + " and the cost  is ksh. " + calculate;
+    document.getElementById("show").innerHTML = "Hi pizzamate ,your order is " + ' ' + '' + getNumber() + '' + '' + '' + " pizza" + " and the cost  is ksh. " + calculate;
   }
   //    Total price plus delivery charge
   function Total() {
